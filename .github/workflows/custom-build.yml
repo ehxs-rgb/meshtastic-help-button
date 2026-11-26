@@ -4,7 +4,7 @@ on:
     inputs:
       help_text:
         description: Text for one press or a short hold (1-40 of A-Za-z0-9.,!?-)
-        default: HELP
+        default: CHECK
       sos_text:
         description: Text for double press or rapid presses
         default: SOS
