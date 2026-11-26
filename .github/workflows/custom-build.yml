@@ -3,10 +3,10 @@ on:
   workflow_dispatch:
     inputs:
       help_text:
-        description: Text for one press or a short hold (1-40 of A-Za-z0-9.,!?-)
+        description: Text sent on double press (CHECK alert) (1-40 of A-Za-z0-9.,!?-)
         default: CHECK
       sos_text:
-        description: Text for double press or rapid presses
+        description: Text sent on 3 or more presses
         default: SOS
       ok_text:
         description: Acknowledgement text
